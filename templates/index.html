@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Character Chooser</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="/static/Script.js"></script>
+</head>
+<body>
+
+<div class="main">
+    <h2>Choose your tama's gender and pesonality!</h2>
+
+    <label for="gender">Choose the gender:</label>
+    <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="either">Either</option>
+    </select>
+
+    <label for="personality">Choose the personality:</label>
+    <select name="personality" id="personality">
+        <option value="docile">Docile</option>
+        <option value="energetic">Energetic</option>
+        <option value="shy">Shy</option>
+        <option value="spoiled">Spoiled</option>
+        <option value="mysterious">Mysterious</option>
+    </select>
+
+    <table id="table">
+        <tr>
+            <td>Docile:</td>
+            <td>Calm, Cool, Honest, Orderly, Polite, Quiet</td>
+        </tr>
+        <tr>
+            <td>Energetic:</td>
+            <td>Bold, Careless, Jolly, Naughty, Passionate, Playful</td>
+        </tr>
+        <tr>
+            <td>Shy:</td>
+            <td>Coy, Delicate, Fearful, Reserved, Shy, Timid</td>
+        </tr>
+        <tr>
+            <td>Spoiled:</td>
+            <td>Affectionate, Emotional, Friendly, Lonely, Lovely, Spoiled</td>
+        </tr>
+        <tr>
+            <td>Mysterious:</td>
+            <td>Chill, Ditzy, Moody, Mysterious, Rash, Relaxed</td>
+        </tr>
+    </table>
+
+    <button type="button" id="getResultBtn">Get result</button>
+
+    <div id="results" class="results"></div>
+
+    <div id="item-container"></div>
+
+</div>
+
+</body>
+</html>

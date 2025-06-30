@@ -1,0 +1,24 @@
+body {
+    background-color: powderblue;
+  }
+
+div {
+    background-color: white;
+}
+
+.main {
+    margin: auto;
+    width: 50%;
+    padding: 2%;
+    text-align: center;
+    font-size: medium;
+}
+
+#table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: small;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
